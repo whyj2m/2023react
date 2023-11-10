@@ -1,10 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
+  const jm = "하이~clone test"
+  function test() {
+    return 100;
+  }
   return (
     <div className="App">
-      pull plz
+
+      <div> {jm}{test()} </div>
+
     </div>
   );
 }
